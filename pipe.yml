@@ -2,7 +2,7 @@ name : terraform file
 
 on:
   push :
-    branch :
+    branches :
         - main
 
 permissions:
@@ -12,9 +12,10 @@ permissions:
 jobs:
   terraform:
     runs-on: ubuntu-latest
-  
-      steps :
-        - uses : actions/checkout@v4
+
+    steps:
+      - name : checkout
+        uses : actions/checkout@v4
       
       
       
