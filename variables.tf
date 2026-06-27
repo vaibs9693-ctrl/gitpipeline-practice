@@ -1,0 +1,10 @@
+variable "rgnames" {}
+variable "stgnames" {}
+variable "vnetnames" {}
+variable "subnetnames" {}
+variable "pipnames" {}
+variable "nicnames" {}
+variable "mysubnet" {}
+variable "vmnames" {}
+variable "os_disk" {}
+variable "source_image_reference" {}
